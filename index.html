@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Clean Sass</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__background"></div>
+            <nav class="flex flex--jc-sb flex--ai-c container header__nav">
+                <div class="menu-icon">
+                    <span class="menu-icon__line"></span>
+                    <span class="menu-icon__line"></span>
+                </div>
+
+                <a href="#">
+                    <span class="logo">Mini Designs</span>
+                </a>
+            </nav>
+
+            <div class="flex flex--jc-sb flex--ai-s container header__content">
+                <div class="flex flex--vertical flex--jc-sb header__info">
+                    <div class="header__text">
+                        <h1 class="primary-title">
+                            Focus On What's<br class="display-none-in-small" />
+                            Right In Front<br class="display-none-in-small" />
+                            Of You
+                        </h1>
+                        <h2 class="secondary-title light-text">
+                            That's the only thing<br />
+                            that matters
+                        </h2>
+                    </div>
+                    <a href="#" class="flex flex--ai-c header__show-more-link">
+                        <span>Show Me More</span> <img src="media/right-arrow.svg" alt="Right Arrow" />
+                    </a>
+                </div>
+
+                <div class="flex header__cards">
+                    <a href="#" class="primary-card">
+                        <img class="img-cover" src="media/header-1.jpg" alt="The Nameless Kingdom" />
+                        <div class="display-none-in-small primary-card__shadow"></div>
+                        <div class="display-none-in-small primary-card__info">
+                            <h3>The Nameless Kingdom</h3>
+                            <p>Light Text Here</p>
+                        </div>
+                    </a>
+                    <a href="#" class="primary-card">
+                        <img class="img-cover" src="media/header-2.jpg" alt="The Wall Of Flowers" />
+                        <div class="display-none-in-small primary-card__shadow"></div>
+                        <div class="display-none-in-small primary-card__info">
+                            <h3>The Wall Of Flowers</h3>
+                            <p>Light Text Here</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <main class="container main-content">
+            <div class="recommended">
+                <div class="recommended__title">
+                    <h1 class="primary-title">Something Domestic</h1>
+                    <h2 class="secondary-title light-text">Excitement replaced fear until the final moment</h2>
+                </div>
+                <div class="standard-cards">
+                    <a href="#" class="standard-cards__card">
+                        <div class="standard-cards__card__img">
+                            <img class="img-cover" src="media/c1.jpg" alt="Lost Past" />
+                        </div>
+                        <h3 class="standard-cards__card__title">Lost Past</h3>
+                        <p class="light-text standard-cards__card__description">First Description Here</p>
+                    </a>
+                    <a href="#" class="standard-cards__card">
+                        <div class="standard-cards__card__img">
+                            <img class="img-cover" src="media/c2.jpg" alt="Old Revenge" />
+                        </div>
+                        <h3 class="standard-cards__card__title">Old Revenge</h3>
+                        <p class="light-text standard-cards__card__description">Second Description Here</p>
+                    </a>
+                    <a href="#" class="standard-cards__card">
+                        <div class="standard-cards__card__img">
+                            <img class="img-cover" src="media/c3.jpg" alt="Another Clash" />
+                        </div>
+                        <h3 class="standard-cards__card__title">Another Clash</h3>
+                        <p class="light-text standard-cards__card__description">Third Description Here</p>
+                    </a>
+                    <a href="#" class="standard-cards__card">
+                        <div class="standard-cards__card__img">
+                            <img class="img-cover" src="media/c4.jpg" alt="New Warrior" />
+                        </div>
+                        <h3 class="standard-cards__card__title">New Warrior</h3>
+                        <p class="light-text standard-cards__card__description">Forth Description Here</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="flex flex--ai-s trending special-collection">
+                <a href="#" class="special-collection__card special-collection__main-card">
+                    <div class="special-collection__card__img special-collection__main-card__img">
+                        <img class="img-cover" src="media/g1.jpg" alt="Fighting For A Future" />
+                    </div>
+                    <div class="special-collection__card__text special-collection__main-card__text">
+                        <h3 class="special-collection__card__title">Fighting For A Future, Ready For What Destiny Brings</h3>
+                        <p class="light-text special-collection__card__description">Description Of First Card Goes Here</p>
+                    </div>
+                </a>
+
+                <div class="flex flex--jc-sb flex--vertical special-collection__secondary-cards">
+                    <a href="#" class="special-collection__card special-collection__standard-card">
+                        <div class="special-collection__card__img special-collection__standard-card__img">
+                            <img class="img-cover" src="media/g2.jpg" alt="Time To Fight" />
+                        </div>
+                        <div class="special-collection__card__text special-collection__standard-card__text">
+                            <h3 class="special-collection__card__title">Not A Way Out, Time To Fight</h3>
+                            <p class="light-text special-collection__card__description">Short Description Here</p>
+                        </div>
+                    </a>
+
+                    <a href="#" class="special-collection__card special-collection__standard-card">
+                        <div class="special-collection__card__img special-collection__standard-card__img">
+                            <img class="img-cover" src="media/g3.jpg" alt="Short Description Here" />
+                        </div>
+                        <div class="special-collection__card__text special-collection__standard-card__text">
+                            <h3 class="special-collection__card__title">Absolute Power Doesn't Fall Back</h3>
+                            <p class="light-text special-collection__card__description">Short Description Here</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="popular">
+                <div class="flex flex--jc-sb popular__info">
+                    <h1 class="primary-title popular__info__title">The Phoenix On The Frozen Forest</h1>
+                    <p class="light-text popular__info__description">
+                        She saw no irony asking me to change but wanting me to accept her for who she is. Going from child, to childish, to
+                        childlike is only a matter of time. He turned in the research paper on Friday; otherwise, he would have not passed
+                        the class.
+                    </p>
+                </div>
+                <a href="#" class="popular__img"><img class="img-cover popular__img" src="media/p1.jpg" alt="Popular Post" /></a>
+                <a href="#" class="popular__img"><img class="img-cover popular__img" src="media/p2.jpg" alt="Popular Post" /></a>
+                <a href="#" class="popular__img"><img class="img-cover popular__img" src="media/p3.jpg" alt="Popular Post" /></a>
+                <a href="#" class="popular__img"><img class="img-cover popular__img" src="media/p4.jpg" alt="Popular Post" /></a>
+                <a href="#" class="popular__img"><img class="img-cover popular__img" src="media/p5.jpg" alt="Popular Post" /></a>
+            </div>
+        </main>
+
+        <script src="js/index.js"></script>
+    </body>
+</html>
